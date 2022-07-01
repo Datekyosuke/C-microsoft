@@ -1,0 +1,10 @@
+int[] invertary = { 200, 450, 700, 175, 250};
+int bin = 0;
+int sum = 0;
+foreach(int items in invertary)
+{
+    sum+=items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} items (Runing total: {sum})");
+}
+Console.WriteLine($"We have {sum} items in invertary.");
